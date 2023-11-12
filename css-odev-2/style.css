@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.header-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.page-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.search-title {
+    font-size: 18px;
+    color: #333;
+}
+
+.search-input {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.search-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.links-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.special-searches,
+.other-links,
+.get-google-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.special-searches {
+    background-color: #97e2da;
+    padding: 20px;
+}
+
+.other-links {
+    background-color: #86c9c1;
+    padding: 15px;
+}
+
+.get-google-section {
+    background-color: #75b1aa;
+    padding: 15px;
+}
+
+.subscribe-section {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.page-footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
